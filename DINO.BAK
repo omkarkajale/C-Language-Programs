@@ -1,0 +1,8 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+textcolour(4);
+textbackgroung(3);
+clrscr();
+window(2,3,70,3);
+cprintf()

@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,j,y,a[20]={8,9,3,6,10,5,4,7,2,1,28,76,32,23,45,43,12,32,88,77};
+    clrscr();
+      for(i=0;i<=19;i=i+1)
+      {
+	 for(j=0;j<=19;j=j+1)
+	 {
+	 if(a[j]>a[j+1])
+	 {
+	 y=a[j];
+	 a[j]=a[j+1];
+	 a[j+1]=y;
+	 }
+	   }
+	      }
+	      for(i=0;i<=19;i=i+1)
+	      {
+	      printf("%d",a[i]);
+	      }
+	      getch();
+	      }
